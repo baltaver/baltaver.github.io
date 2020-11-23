@@ -1,0 +1,113 @@
+
+body{
+     margin: 0;
+    background-color: rgb(214, 209, 214);
+    font-style: normal;
+   
+   
+
+    
+}
+.Header{
+    
+    text-align: center;
+    padding: 20px;
+    background-image: url(headerbackground.png);
+}
+
+.NavigationMenu{
+    display: table;
+    margin: 0 auto;
+    background-color: rgb(167, 154, 130);
+}
+
+ul#YatayMenü{
+    list-style: none;
+    align-items: center;
+}
+
+ul#YatayMenü li {
+    display: inline;
+    margin: 30px;
+}
+
+#Content{
+    display: block;
+    height: 1000px;
+    width: auto;
+    justify-content: right;
+}
+
+#SolBölme{
+    float: left;
+    width: 20%;
+    height: auto;
+    text-align: left;
+    font-size: small;
+}
+
+#OrtaBölme{
+    float: left;
+    width: 60%;
+    height: auto;
+    text-align: center;
+    font-size: medium;
+}
+
+#SağBölme{
+    float: left;
+    width: 20%;
+    height: auto;
+    text-align: right;
+    font-size: small;
+    
+}
+@media screen and (max-width: 800px){
+    #SağBölme #SolBölme #OrtaBölme {
+    width: 100%;
+}
+}
+
+#FotoYedi{
+
+}
+
+#Hizmet{
+    text-align: left;
+   
+}
+#AnasayfaFoto{
+    max-width: 200px;
+    max-height: auto;
+}
+
+#Misyon #Vizyon #Tarihçe{
+    width: 200px;
+    height: 100px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+Footer{
+    
+    height: 35px;
+    margin: 5px;
+    display: block;    
+}
+
+#Simgeler img {
+    width: 30px;
+    height: 30px;
+
+}
+
+
+#Copyright{
+
+    float: left;
+    text-align: left;
+}
+
+#Simgeler{
+    float: right;
+}
